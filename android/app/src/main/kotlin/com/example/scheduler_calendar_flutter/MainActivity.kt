@@ -1,0 +1,6 @@
+package com.example.scheduler_calendar_flutter
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
