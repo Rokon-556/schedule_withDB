@@ -76,6 +76,7 @@ class _AddEventWidgetState extends State<AddEventWidget> {
     _titleNode.dispose();
     _descriptionNode.dispose();
     _dateNode.dispose();
+    _endDateNode.dispose();
 
     _dateController.dispose();
     _endDateController.dispose();
@@ -234,7 +235,7 @@ class _AddEventWidgetState extends State<AddEventWidget> {
             height: 15.0,
           ),
           DateTimeSelectorFormField(
-            controller: _dateController,
+            controller: _endDateController,
             decoration: AppConstants.inputDecoration.copyWith(
               labelText: "Select Date",
             ),
